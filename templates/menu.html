@@ -1,15 +1,5 @@
 {% load menu_tags %}
 
 {% if menu_name %}
-    {% draw_menu menu_name %}
-{% endif %}
-
-{% if menu_name %}
-    <p>Menu name: {{ menu_name }}</p>
-{% endif %}
-
-{% if menu_html %}
-    {{ menu_html }}
-{% else %}
-    <p>No menu found.</p>
+    {% draw_menu main_menu %}
 {% endif %}
